@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - main
+      - master
+jobs:
+  execute:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: MaximePremont/EpitechCriterionActions@master
