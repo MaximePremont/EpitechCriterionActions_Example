@@ -1,0 +1,10 @@
+LAST_LOGS
+gcc -o unit_tests ./sources/my_strlen.c ./tests/test_my_strlen.c -I./includes -Wall -Wextra -lcriterion --coverage
+./unit_tests
+TAP version 13
+1..1
+# Criterion v2.3.2
+
+# Running 1 tests from my_strlen
+ok - my_strlen::simple_test  (0.00s)
+[====] Synthesis: Tested: 1 | Passing: 1 | Failing: 0 | Crashing: 0 
